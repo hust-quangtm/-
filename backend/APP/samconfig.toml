@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+region = "us-east-1"
+capabilities = "CAPABILITY_NAMED_IAM"
+parameter_overrides = "Environment=\"dev\" ChannelType=\"LIFF\""
+stack_name = "sap-app-v2"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-u724zdtvudmn"
+s3_prefix = "sap-app-v2"
+confirm_changeset = true
+image_repositories = []

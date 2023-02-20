@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+parameter_overrides = "Environment=\"dev\""
+stack_name = "sam-app-layer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-u724zdtvudmn"
+s3_prefix = "sam-app-layer"
+region = "us-east-1"
